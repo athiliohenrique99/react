@@ -37,8 +37,7 @@ const handleSubimit = (e) => {
       <div className="wordContainer">
         {/* <span className='letter'>A</span>
         <span className="blackSquare"></span> */}
-        {letters.map((letter, i) => ( console.log(letter),
-          guessedLetters.includes(letter) ? (
+        {letters.map((letter, i) => ( guessedLetters.includes(letter) ? (
             <span key={i} className="letter">
               {letter}
             </span>
